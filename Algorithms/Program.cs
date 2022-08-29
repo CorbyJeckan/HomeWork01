@@ -11,7 +11,7 @@ namespace Algorithms
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Title = "Algorithms";
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Здравствуйте!\nПожалуйста,введите пункт для выбора домашнего задания.\nДоступные для выбора пункты:\n1 - Напишите на C# функцию согласно блок-схеме.\n2 - Рассчёт сложности функции. \n3 - Реализуйте функцию вычисления числа Фибоначчи.");
+            Console.WriteLine("Здравствуйте!\nПожалуйста,введите пункт для выбора домашнего задания.\nДоступные для выбора пункты:\n1 - Напишите функцию согласно блок-схеме.\n2 - Рассчёт сложности функции. \n3 - Реализуйте функцию вычисления числа Фибоначчи.");
             string selectednumber = (Console.ReadLine());
             switch (selectednumber)
             {

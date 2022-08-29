@@ -16,7 +16,7 @@ namespace Algorithms
             int number = int.Parse(Console.ReadLine());
             while (number < 1)
             {
-                Console.WriteLine("Вы ввели число меньше одного,пожалуйста,повторите попытку.");
+                Console.WriteLine("Вы ввели число меньше одного,пожалуйста,повторите попытку...");
                 number = int.Parse(Console.ReadLine());
             }
 

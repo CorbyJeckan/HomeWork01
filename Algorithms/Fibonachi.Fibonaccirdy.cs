@@ -23,7 +23,7 @@ namespace Algorithms
         static public void Fibonaccirdy(string[] args)
         {
 
-            Console.WriteLine("Используем алгоритм с рекурсией? Да/Нет");
+            Console.WriteLine("Используем алгоритм с рекурсией??? Да/Нет");
             string choice = (Console.ReadLine());
             Console.WriteLine("До какого числа выводить значения Фибоначчи? ");
             int number = int.Parse(Console.ReadLine());
