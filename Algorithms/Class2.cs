@@ -10,7 +10,7 @@ namespace Algorithms
     {
         public static void Function()
         {
-            Console.WriteLine("Сложность функции: O(N^3)");
+            Console.WriteLine("Сложность функции составляет: O(N^3)");
         }
         
     }
